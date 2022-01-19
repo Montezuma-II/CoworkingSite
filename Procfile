@@ -1,1 +1,1 @@
-web: gunicorn CoworkingSite.wsgi --log-file -
+web: gunicorn lit-cove-22798.wsgi --log-file -
