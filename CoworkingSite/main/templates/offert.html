@@ -1,0 +1,96 @@
+{% load static %}
+{% block style %}
+        <link rel="stylesheet" type="text/css" href="{% static "fontawesome/css/all.min.css" %}" />
+    {% endblock %}
+{% block content %}
+    <link href="{% static 'fontawesome/css/all.min.css' %}" rel="stylesheet" type="text/css">
+    <div class="card-deck">
+        <div class="card border-secondary">
+
+            <div class="card-header bg-secondary" style="text-align: center">
+                <i class="fas fa-user-graduate fa-4x" ></i>
+                <br></br>
+                <h5 class="card-title  font-weight-bold text-white"  >Pakiet społeczny dla
+                    studentów</h5>
+            </div>
+            <div class="card-body ">
+                <p class="card-text">
+                <ul class="list-group list-group-flush" style="text-align: center">
+                    <li class="list-group-item">Wypracowanie godzin społecznych zgodnie z ideą banku czasu w zamian za
+                        darmowe korzystanie z przestrzeni biura
+                    </li>
+                    <li class="list-group-item"> System w rozliczeniu godzinowym</li>
+                </ul>
+                </p>
+            </div>
+            <div class="card-footer">
+                {#                <small class="text-muted">Cena 13zł/h</small>#}
+            </div>
+        </div>
+        <div class="card border-warning">
+            {#            <img class="card-img-top" src="..." alt="Card image cap">#}
+            <div class="card-header bg-warning" style= "text-align: center">
+                <i class="fas fa-user-tie fa-4x"></i>
+                <br></br>
+                <h5 class="card-title font-weight-bold text-white">Pakiet usług
+                    podstawowych</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                <ul class="list-group list-group-flush" style="text-align: center">
+                    <li class="list-group-item">Wynajem biurka na określony czas (godziny, dni, tygodnie, miesiące)
+                    </li>
+                    <li class="list-group-item"> Wynajem pomieszczeń biurowych i konferencyjnych</li>
+                    <li class="list-group-item"> Abonament parkingowy</li>
+                    <li class="list-group-item"> Możliwość korzystania z zasobów wspólnych
+                        <ul style="text-align: left">
+                            <li> Kuchnia wraz z wyposażeniem + kawa, herbata</li>
+                            <li> Komputery</li>
+                            <li> Programy komputerowe</li>
+                            <li> Drukarki, skanery, ksera</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item"> Korzystanie z materiałów biurowych</li>
+                    <li class="list-group-item"> Strefa odpoczynku</li>
+                </ul>
+                </p>
+            </div>
+            <div class="card-footer">
+                {#                <small class="text-muted">Last updated 3 mins ago</small>#}
+            </div>
+        </div>
+        <div class="card border-primary">
+            {#            <img class="card-img-top" src="..." alt="Card image cap">#}
+            <div class="card-header bg-primary" style="text-align: center">
+                <i class="fas fa-crown fa-4x"></i>
+                <br></br>
+                <h5 class="card-title font-weight-bold text-white" >Pakiet usług
+                    dodatkowych</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                <ul class="list-group list-group-flush" style="text-align: center">
+                    <li class="list-group-item">Dzień próbny korzystania z przestrzeni</li>
+                    <li class="list-group-item"> Odpłatne wsparcie biznesowe
+                        <ul style="text-align: left">
+                            <li>usługi księgowe</li>
+                            <li>usługi prawnicze</li>
+                            <li>usługi informatyczne</li>
+                            <li>usługi graficzne</li>
+                            <li>usługi marketingowe</li>
+                        </ul>
+                    </li>
+                <li class="list-group-item">Online asystent</li>
+                <li class="list-group-item">Korzystanie z programów specjalistycznych</li>
+                <li class="list-group-item">Udział w wydarzeniach specjalnych</li>
+                <li class="list-group-item">Biuro karier</li>
+                <li class="list-group-item">Wynajem powierzchni reklamowych</li>
+                </ul>
+                </p>
+            </div>
+            <div class="card-footer">
+                {#                <small class="text-muted">Last updated 3 mins ago</small>#}
+            </div>
+        </div>
+    </div>
+{% endblock %}
