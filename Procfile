@@ -1,2 +1,2 @@
 web: gunicorn CoworkingSite.wsgi --log-file -
-$ heroku ps:scale web=1
+web: gunicorn CoworkingSite:app
